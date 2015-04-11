@@ -1,0 +1,88 @@
+ls
+vim ~/.emacs 
+python a.py
+python a.py
+python a.py
+python a.py
+python a.py\
+python a.py\
+python a.py\
+python a.py
+python a.py
+python a.py
+python a.py
+python a.py
+python a.py
+cd ~/.emacs.d
+ls
+cd personal/preload/
+ls
+l
+ls
+la
+ls -a
+ls
+python 
+ls
+python decorator.py 
+python decorator.py 
+python decorator.py 
+python decorator.py 
+cd .emacs.d/ 
+ls
+cd themes/
+ls
+ls
+python l2.pyc
+ls
+rm *.pyc
+ls
+python l2.py 
+l
+python testit.py 
+python testit.py 
+python testit.py 
+python testit.py 
+cd ..
+ls
+ls
+r
+ranger 
+cd ~
+ls
+cd build/
+ls
+cd lnpy/
+ls
+python decorator.py 
+exit
+ls
+python decorator.py 
+..
+..
+ls
+ls
+python test.py
+cls
+ls
+clear 
+clear 
+ls
+cd build/practiseCoding/ccf/
+ls
+g++ 13121.cpp 
+./a.out 
+g++ 13121.cpp 
+./a.out 
+g++ 13121.cpp 
+g++ 13121.cpp 
+./a.out 
+g++ 13121.cpp 
+./a.out 
+./a.out 
+g++ 13122.cpp 
+g++ 13122.cpp 
+g++ 13122.cpp 
+./a.out 
+g++ 14031.cpp && ./a.out  
+g++ 14031.cpp && ./a.out  
