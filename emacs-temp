@@ -36,13 +36,15 @@
 (setq inhibit-startup-message t)
 (setq visible-bell nil)
 (setq make-backup-files nil)
-(global-font-lock-mode t)
+;;(global-font-lock-mode t)
 (show-paren-mode t)
 
 ;; scroll smoothly
 (setq scroll-margin 3
  scroll-conservatively 10000)
 (setq auto-save-default nil)
+
+;;  (load "~/emacs/ats-mode.el")
 
 
 ;; markdown-mode
@@ -69,14 +71,6 @@
                 (define-key python-mode-map "(" 'electric-pair)
                 (define-key python-mode-map "[" 'electric-pair)
                 (define-key python-mode-map "{" 'electric-pair)))
-;; try auto indent
-(global-set-key (kbd "RET") 'newline-and-indent)
-
-;; use python indent 
-(add-hook 'python-mode-hook 'guess-style-guess-tabs-mode)
-(add-hook 'python-mode-hook (lambda ()
-                               (when indent-tabs-mode
-                                  (guess-style-guess-tab-width))))
 
 ;; use google style C
 (add-hook 'c-mode-common-hook 'google-set-c-style)
@@ -92,12 +86,9 @@
 
 
 ;; use the atom dark theme which is my favourite
-(add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
-;(load-theme 'atom-dark t)
-(load-theme 'base16-default t)
-;(require 'color-theme-tomorrow)
-;(load-theme 'tomorrow-night t)
-;(require 'color-theme-sanityinc-tomorrow)
+;(add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
+;(load-theme 'base16-default t)
+(load-theme 'tango-dark t)
 
 ;; use Wind Move (see more on EmacsWiki)
 (when (fboundp 'windmove-default-keybindings)
@@ -122,6 +113,45 @@
 ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
+
+;; MELPA
+(require 'package) ;; You might already have this line
+(add-to-list 'package-archives
+             '("melpa" . "https://melpa.org/packages/"))
+(when (< emacs-major-version 24)
+  ;; For important compatibility libraries like cl-lib
+  (add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/")))
+(package-initialize) ;; You might already have this line
+
+
+(set-default-font "Monaco-13")
+;(setq command-line-default-directory "/Users/archie/sub-archie/Github")
+
+;; Flycheck
+(add-hook 'after-init-hook #'global-flycheck-mode)
+
+;(global-set-key (kbd "C-x C-f") 'my-find-file)
+;(defun my-find-file ()
+;  "force a starting path"
+;  (interactive)
+;  (let ((default-directory "~/Users/"))
+;        (call-interactively 'find-file)))
+
+;; ATS 
+(load "~/.emacs.d/personal/preload/ats2-mode.el")
+(require 'ats-mode)
+(require 'ats2-flymake)
+(setenv "PATSHOME" "/cs/coursedata/cs520/ats2-lang/")
+
+;;Helm
+;;(add-to-list 'load-path "~/.emacs.d/personal/preload/async")
+;(add-to-list 'load-path "~/.emacs.d/personal/preload/helm")
+;(require 'helm-config)
+
+;; Gtags
+;(require 'gtags)
+;(setq gtags-suggested-key-mapping t)
+
 ;; for yasnippet
 ;(add-to-list 'load-path "~/.emacs.d/personal/preload/yasnippet")
 ;(require 'yasnippet)
@@ -131,30 +161,3 @@
 (add-to-list 'load-path "~/.emacs.d/personal/preload/neotree/")
 (require 'neotree)
 (global-set-key [f3] 'neotree-toggle)
-
-;;Xshell
-(global-set-key [(control h)] 'delete-backward-char)
-(setq shift-select-mode nil) 
-;; Make shifted direction keys work on the Linux console or in an xterm
- (when (member (getenv "TERM") '("linux" "xterm"))
-   (dolist (prefix '("\eO" "\eO1;" "\e[1;"))
-     (dolist (m '(("2" . "S-") ("3" . "M-") ("4" . "S-M-") ("5" . "C-")
-                  ("6" . "S-C-") ("7" . "C-M-") ("8" . "S-C-M-")))
-       (dolist (k '(("A" . "<up>") ("B" . "<down>") ("C" . "<right>")
-                    ("D" . "<left>") ("H" . "<home>") ("F" . "<end>")))
-         (define-key function-key-map
-                     (concat prefix (car m) (car k))
-                     (read-kbd-macro (concat (cdr m) (cdr k))))))))
-
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(custom-safe-themes (quote ("8022cea21aa4daca569aee5c1b875fbb3f3248a5debc6fc8cf5833f2936fbb22" "a0fdc9976885513b03b000b57ddde04621d94c3a08f3042d1f6e2dbc336d25c7" "c56d90af9285708041991bbc780a073182cbe91721de17c6e7a8aac1380336b3" default))))
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- )
