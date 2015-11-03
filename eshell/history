@@ -86,3 +86,30 @@ g++ 13122.cpp
 ./a.out 
 g++ 14031.cpp && ./a.out  
 g++ 14031.cpp && ./a.out  
+cd ~networking
+zsh 
+cd code/
+cd coding/networking/
+ls
+vim pa2.c
+cd cs520-2015-fall-shwsun_/
+cd Assignment/07/
+cls
+cd MySolution/
+git pull 
+ls
+cd coding/cs520-2015-fall-shwsun_/Assignment/07/MySolution/
+ls
+patsopt
+zsh
+patsopt
+patscc
+version
+patsopt
+echo $PATSHOME
+export $PATH
+echo $PATH
+patsopt
+echo $PATSHOME
+pastopt
+patsopt
