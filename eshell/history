@@ -113,3 +113,14 @@ patsopt
 echo $PATSHOME
 pastopt
 patsopt
+cd coding/
+cls
+cd networking/
+ls
+cd coding/networking/
+cls
+ls
+mv pa2_extend.c   extendpa2.c
+cd coding/networking/
+ctags -R
+ls
