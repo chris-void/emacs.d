@@ -1,24 +1,3 @@
-ls
-vim ~/.emacs 
-python a.py
-python a.py
-python a.py
-python a.py
-python a.py\
-python a.py\
-python a.py\
-python a.py
-python a.py
-python a.py
-python a.py
-python a.py
-python a.py
-cd ~/.emacs.d
-ls
-cd personal/preload/
-ls
-l
-ls
 la
 ls -a
 ls
@@ -123,4 +102,27 @@ ls
 mv pa2_extend.c   extendpa2.c
 cd coding/networking/
 ctags -R
+ls
+cd coding/networking/
+cls
+patsiot
+patsopt 
+cd 330
+cd MYATS
+cd ~/develop/MYATS/
+kls
+ls
+cd ATS2-Postiats-contrib/
+ls
+cd document/
+cls
+ls
+cd EXAMPLE/
+ls
+ls
+..
+cd ~/Desktop/BostonUniversity/schedule/655/
+ls
+cd coding/networking/
+cls
 ls
