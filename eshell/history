@@ -1,59 +1,3 @@
-ls
-vim ~/.emacs 
-python a.py
-python a.py
-python a.py
-python a.py
-python a.py\
-python a.py\
-python a.py\
-python a.py
-python a.py
-python a.py
-python a.py
-python a.py
-python a.py
-cd ~/.emacs.d
-ls
-cd personal/preload/
-ls
-l
-ls
-la
-ls -a
-ls
-python 
-ls
-python decorator.py 
-python decorator.py 
-python decorator.py 
-python decorator.py 
-cd .emacs.d/ 
-ls
-cd themes/
-ls
-ls
-python l2.pyc
-ls
-rm *.pyc
-ls
-python l2.py 
-l
-python testit.py 
-python testit.py 
-python testit.py 
-python testit.py 
-cd ..
-ls
-ls
-r
-ranger 
-cd ~
-ls
-cd build/
-ls
-cd lnpy/
-ls
 python decorator.py 
 exit
 ls
@@ -113,3 +57,72 @@ patsopt
 echo $PATSHOME
 pastopt
 patsopt
+ls
+git pull
+ld
+tree
+cls
+ls
+cd self/
+ls
+cd code/
+l
+ls
+patsopt
+cd code/
+ls
+cd networking/
+ls
+ls
+cd ..
+tree
+cd pcoding/
+;
+ls
+cd ..
+ls
+cd bitcoin/
+l;s
+ls
+cd code/
+cd cs520-2015-fall-shwsun_/
+git pull
+ls
+cd Assignment/
+08
+l
+ls
+cd code/cs520-2015-fall-shwsun_/Assignment/08/
+cd MySolution/
+l
+ls
+make 
+ls
+cd code/
+cd cs520-2015-fall-shwsun_/Assignment/08/MySolution/
+ls
+make grading
+make test
+ls
+vim Makefile 
+cd code/cs520-2015-fall-shwsun_/Assignment/08/MySolution/
+ls
+make testall
+make grading 
+cdcod
+cd code/
+ls
+cd cs520-2015-fall-shwsun_/Assignment/08/MySolution/
+..
+..
+..
+git add --all .
+git commit -m " 	fix "
+git push 
+cd Assignment/08/MySolution/
+ls
+make testall
+cd 08
+cd Assignment/08/MySolution/
+ls
+make grading
