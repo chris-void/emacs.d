@@ -1,6 +1,4 @@
 ls
-gcc temp.c 
-ls
 ./a.out
 cd 650
 655
@@ -126,3 +124,5 @@ cls
 ls
 cd coding/
 ls
+cd coding/
+l
