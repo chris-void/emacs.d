@@ -1,128 +1,128 @@
-la
-ls -a
 ls
-python 
+gcc temp.c 
 ls
-python decorator.py 
-python decorator.py 
-python decorator.py 
-python decorator.py 
-cd .emacs.d/ 
+./a.out
+cd 650
+655
+..
+..
+cd BostonUniversity/schedule/
+cd 655/
 ls
-cd themes/
+cls
 ls
+cd coding/cs520-2015-fall-shwsun_/
+git pull
+cd Assignment/
 ls
-python l2.pyc
-ls
-rm *.pyc
-ls
-python l2.py 
+cd 08/
 l
-python testit.py 
-python testit.py 
-python testit.py 
-python testit.py 
-cd ..
 ls
-ls
-r
-ranger 
-cd ~
-ls
-cd build/
-ls
-cd lnpy/
-ls
-python decorator.py 
-exit
-ls
-python decorator.py 
-..
-..
-ls
-ls
-python test.py
-cls
-ls
-clear 
-clear 
-ls
-cd build/practiseCoding/ccf/
-ls
-g++ 13121.cpp 
-./a.out 
-g++ 13121.cpp 
-./a.out 
-g++ 13121.cpp 
-g++ 13121.cpp 
-./a.out 
-g++ 13121.cpp 
-./a.out 
-./a.out 
-g++ 13122.cpp 
-g++ 13122.cpp 
-g++ 13122.cpp 
-./a.out 
-g++ 14031.cpp && ./a.out  
-g++ 14031.cpp && ./a.out  
-cd ~networking
-zsh 
-cd code/
-cd coding/networking/
-ls
-vim pa2.c
-cd cs520-2015-fall-shwsun_/
-cd Assignment/07/
-cls
+tree
+cp Solution/* MySolution/.
 cd MySolution/
-git pull 
 ls
-cd coding/cs520-2015-fall-shwsun_/Assignment/07/MySolution/
+cd coding/cs520-2015-fall-shwsun_/Assignment/08/
+cd coding/cs520-2015-fall-shwsun_/Assignment/
+cd 08/
+cd coding/
 ls
-patsopt
-zsh
-patsopt
-patscc
-version
-patsopt
-echo $PATSHOME
-export $PATH
-echo $PATH
-patsopt
-echo $PATSHOME
-pastopt
-patsopt
+cd python-guide/
+l
+ls
+cd coding/
+cd python-guide/py3meta
+l
+ls
+teww
+tree
+cd ..
+..
+cd cs520-2015-fall-shwsun_/
+git pull
+cd Assignment/08/MySolution/
+ls
+cd ~/coding/
+cd cs520-2015-fall-shwsun_/Assignment/08/MySolution/
+cls
+ls
+clear 
+l
+ls
+cd ~/coding/
+ls
+cd bitcoin/
+ls
+ls
+GIT
+ls
+tree
+git add blockparser/
+git commmit -m "1st step parser "
+git commit -m "1st step parser "
+git push
+cls
+cd ~/coding 
+ls
+cd googletest/
+l
+ls
+cat README.md 
+cls
+ls
+ls
+cls
+ls
+cd coding/
+ls
+cls
+clear 
+cd coding/
+ls
+cd cs520/
+cd Assignment/
+cd 09/
+cd ..
+..
+cd Lecture/
+ls
+cd lecture-11-04/
+ls
+..
+cd lecture-11-09/
+ls
+..
+cd lecture-11-11/
+ls
+cd Worker/
+ls
+cd coding/
+ls
 cd coding/
 cls
-cd networking/
 ls
-cd coding/networking/
+cd python-guide/
+ls
+ls
+cd coding/
+ls
+cls
+cd coding/
+ls
+l
+cls
+cd coding/
+l
+ls
+cd coding/
+s
+cls
+cd coding/
+lsc
+ls
+cd coding/
+l
 cls
 ls
-mv pa2_extend.c   extendpa2.c
-cd coding/networking/
-ctags -R
-ls
-cd coding/networking/
-cls
-patsiot
-patsopt 
-cd 330
-cd MYATS
-cd ~/develop/MYATS/
-kls
-ls
-cd ATS2-Postiats-contrib/
-ls
-cd document/
-cls
-ls
-cd EXAMPLE/
-ls
-ls
-..
-cd ~/Desktop/BostonUniversity/schedule/655/
-ls
-cd coding/networking/
-cls
+cd coding/
 ls

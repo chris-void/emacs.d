@@ -9,36 +9,67 @@
 
 ;; ----- ido-work-directory-list -----
 (
- "/Users/arch/coding/networking/"
+ "/Users/arch/coding/"
+ "/Users/arch/"
+ "/Users/arch/coding/bitcoin/"
+ "/Users/arch/coding/googletest/googletest/"
+ "/Users/arch/coding/googletest/"
+ "/Users/arch/coding/cs520-2015-fall-shwsun_/Assignment/08/"
+ "/Users/arch/coding/cs520-2015-fall-shwsun_/Assignment/08/MySolution/"
+ "/Users/arch/coding/python-guide/py3meta/structly/"
  "/Users/arch/Desktop/BostonUniversity/schedule/655/"
+ "/Users/arch/Desktop/PA2/Reliable-data-protocols-SR/"
+ "/Users/arch/coding/networking/"
+ "/Users/arch/coding/networking/test/"
  "/Users/arch/coding/cs520-2015-fall-shwsun_/Assignment/07/MySolution/"
  "/Users/arch/code/coding/networking/"
 )
 
 ;; ----- ido-work-file-list -----
 (
+ "gbn.c"
+ ".emacs"
+ "TODO.md"
+ "README.md"
+ "Assign08.dats"
+ "Assign08_sol.dats"
+ "structly.py"
+ "list_permute.dats"
+ "11-05.md"
  "pa2.c"
- "10-29.md"
- "11-03.md"
- "Assign07_sol.dats"
- "CMakeLists.txt"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/arch/coding/networking/" (22073 25182 0 0) "test/" "tags" "pa2.c" "Makefile" "GBN_extend.c" "GBN.c" "extendpa2.c" "CMakeLists.txt" ".git/" ".DS_Store" "../" "./")
+ ("/Users/arch/coding/" (22105 53710 0 0) "sr.c" "python-guide/" "pa2.c" "networking/" "linux-2.6.11.12/" "googletest/" "gbn.c" "cs520-2015-fall-shwsun_/" "compile" "class_test/" "bitcoin/" "ats-utils-master/" ".DS_Store" "../" "./")
 
- ("/Users/arch/Desktop/BostonUniversity/schedule/655/" (22073 1533 0 0) "solsamplemidtermf15 (1).pdf" "Programming Assign/" "PA2/" "other resrc/" "nrg/" "matta_plot" "Lecture Notes/" "lab/" "hw5_soln.pdf" "Homework/" "geni/" "cs655" "cs455655syllabus.pdf" "6th.Edition.pdf" "11-03.md" "10-29.md" "10-27.md" "10-20.md" "10-15.md" "10-08.md" "10-06.md" "10-01.md" "09-29.md" "09-24.md" "09-22.md" "09-17.md" "09-15.md" "09-10.md" "09-08.md" "09-03.md" ".DS_Store" ".#11-03.md" ".#10-29.md" "../" "./")
+ ("/Users/arch/" (22104 39996 0 0) "VirtualBox VMs/" "test.sh" "remind.md" "PycharmProjects/" "Public/" "Pictures/" "nens.md" "myself.md" "Music/" "Movies/" "Library/" "IdeaProjects/" "Google Drive/" "emacs.d/" "Dropbox/" "Downloads/" "Documents/" "develop/" "Desktop/" "coding/" "ClionProjects/" "bin/" "Applications/" ".zshrc~" ".zshrc" ".zsh_profile" ".zsh_history" ".zsh-update" ".zcompdump-chrisVoid-5.1.1" ".zcompdump-chrisVoid-5.0.8" ".zcompdump-chrisVoid-5.0.5" ".zcompdump" ".Xauthority" ".wireshark-etc/" ".wireshark/" ".w3m/" ".vimrc" ".viminfo" ".vim/" ".Trash/" ".thefuck/" ".subversion/" ".ssh/" ".sh_history" ".rtags-file/" ".rnd" ".rdm.file" ".rbenv/" ".python_history" ".PyCharm50/" ".procmailrc" ".oracle_jre_usage/" ".oh-my-zsh/" ".matplotlib/" ".lesshst" ".gitconfig" ".gem/" ".fontconfig/" ".emacs.d/" ".emacs" ".DS_Store" ".dropbox/" ".draft.md" ".cups/" ".config/" ".CFUserTextEncoding" ".cache/" ".bashrc" ".bash_history" ".atom/" ".android/" "../" "./")
+
+ ("/Users/arch/coding/bitcoin/" (22082 18699 0 0) "TODO.md" "README.md" "LICENSE" "blockparser/" "bitcoin.org" "basic-blockchain-programming/" ".git/" ".DS_Store" ".#bitcoin.org" "../" "./")
+
+ ("/Users/arch/coding/googletest/googletest/" (22068 14929 0 0) "xcode/" "test/" "src/" "scripts/" "samples/" "README.md" "msvc/" "Makefile.am" "make/" "m4/" "LICENSE" "include/" "docs/" "CONTRIBUTORS" "configure.ac" "codegear/" "CMakeLists.txt" "cmake/" "CHANGES" "build-aux/" "../" "./")
+
+ ("/Users/arch/coding/googletest/" (22068 14929 0 0) "travis.sh" "README.md" "googletest/" "googlemock/" ".travis.yml" ".git/" "../" "./")
+
+ ("/Users/arch/coding/cs520-2015-fall-shwsun_/Assignment/08/" (22080 2910 0 0) "Solution/" "MySolution/" "list_concat.dats" "infprime.dats" "Assign08.dats" "../" "./")
+
+ ("/Users/arch/coding/cs520-2015-fall-shwsun_/Assignment/08/MySolution/" (22080 60695 0 0) "Permute_list0.dats" "Makefile" "list_permute.dats" "Assign08_test.dats" "Assign08_sol.dats" ".keeper" ".#Assign08_sol.dats" "../" "./")
+
+ ("/Users/arch/coding/python-guide/py3meta/structly/" (22080 43335 0 0) "structly.py" "../" "./")
+
+ ("/Users/arch/coding/python-guide/py3meta/" (20801 61588 0 0) "typely/" "structly/" "README.txt" "Py3Meta.pdf" "index.html" "importly/" "execly/" "debugly/" "../" "./")
+
+ ("/Users/arch/Desktop/BostonUniversity/schedule/655/" (22078 19285 0 0) "solsamplemidtermf15 (1).pdf" "Programming Assign/" "other resrc/" "nrg/" "matta_plot" "Lecture Notes/" "lab/" "hw5_soln.pdf" "Homework/" "geni/" "cs655" "cs455655syllabus.pdf" "6th.Edition.pdf" "11-05.md" "11-03.md" "10-29.md" "10-27.md" "10-20.md" "10-15.md" "10-08.md" "10-06.md" "10-01.md" "09-29.md" "09-24.md" "09-22.md" "09-17.md" "09-15.md" "09-10.md" "09-08.md" "09-03.md" ".DS_Store" "../" "./")
+
+ ("/Users/arch/coding/networking/test/" (22075 26952 0 0) "temp.c" "OutputFile" "Makefile" "CMakeLists.txt" "a.out" "../" "./")
+
+ ("/Users/arch/coding/networking/" (22075 29810 0 0) "test/" "tags" "pa2.c" "OutputFile" "Makefile" "gbn.c" "extendpa2.c" "CMakeLists.txt" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/arch/Desktop/PA2/Reliable-data-protocols-SR/" (22075 43039 0 0) "README.md" "pa2.c" "a.out" ".DS_Store" "../" "./")
 
  ("/Users/arch/coding/cs520-2015-fall-shwsun_/Assignment/07/MySolution/" (22072 16891 0 0) "sol.dats" "README.md" "Makefile" "Assign07_test.dats" "Assign07_sol.dats" ".keeper" "../" "./")
 
  ("/Users/arch/coding/cs520-2015-fall-shwsun_/Assignment/07/" (22071 3582 0 0) "Solution/" "rarray.dats" "MySolution/" "Assign07.dats" "../" "./")
-
- ("/Users/arch/coding/bitcoin/" (22066 60982 0 0) "TODO.md" "README.md" "LICENSE" "blockparser/" "bitcoin.org" "basic-blockchain-programming/" ".git/" ".DS_Store" ".#bitcoin.org" "../" "./")
-
- ("/Users/arch/coding/" (22070 31966 0 0) "networking/" "googletest/" "cs520-2015-fall-shwsun_/" "bitcoin/" ".DS_Store" "../" "./")
-
- ("/Users/arch/" (22072 19020 0 0) "VirtualBox VMs/" "test.sh" "remind.md" "Public/" "Pictures/" "nens.md" "Music/" "Movies/" "Library/" "IdeaProjects/" "Google Drive/" "emacs.d/" "Dropbox/" "Downloads/" "Documents/" "develop/" "Desktop/" "coding/" "ClionProjects/" "bitcoin.txt" "bin/" "Applications/" "amazon.md" "a.txt" ".zshrc~" ".zshrc" ".zsh_profile" ".zsh_history" ".zsh-update" ".zcompdump-chrisVoid-5.1.1" ".zcompdump-chrisVoid-5.0.8" ".zcompdump-chrisVoid-5.0.5" ".zcompdump" ".Xauthority" ".wireshark-etc/" ".wireshark/" ".w3m/" ".vimrc" ".viminfo" ".vim/" ".Trash/" ".thefuck/" ".subversion/" ".ssh/" ".sh_history" ".rtags-file/" ".rnd" ".rdm.file" ".rbenv/" ".python_history" ".procmailrc" ".oracle_jre_usage/" ".oh-my-zsh/" ".matplotlib/" ".lesshst" ".gitconfig" ".gem/" ".fontconfig/" ".emacs.d/" ".emacs" ".DS_Store" ".dropbox/" ".draft.md" ".cups/" ".config/" ".CFUserTextEncoding" ".cache/" ".bashrc" ".bash_history" ".android/" "../" "./")
 
  ("/Users/arch/code/coding/networking/" (22070 33015 0 0) "test/" "pa2_extend.c" "pa2.c" "Makefile" "GBN_extend.c" "CMakeLists.txt" ".git/" ".DS_Store" "../" "./")
 
