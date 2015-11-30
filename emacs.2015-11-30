@@ -25,6 +25,7 @@
 ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
+;;; Code: 
 (add-to-list 'load-path "~/.emacs.d/personal/preload/")
 
 (global-linum-mode t)
@@ -83,9 +84,9 @@
 
 ;; use the atom dark theme which is my favourite
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
-(load-theme 'base16-default t)
+;(load-theme 'base16-default t)
 ;(load-theme 'solarized-dark t)
-;(load-theme 'solarized-dark t)
+(load-theme 'my-solarized-dark t)
 
 ;; use Wind Move (see more on EmacsWiki)
 (when (fboundp 'windmove-default-keybindings)
@@ -99,7 +100,7 @@
 (set-selection-coding-system 'utf-8)
 (prefer-coding-system 'utf-8)
 
-(setq default-tab-width 4)
+(setq tab-width 4)
 (setq-default indent-tabs-mode nil)
 (setq c-basic-offset 4)
 (require 'cc-mode)
@@ -141,7 +142,7 @@
 ;(blink-cursor-mode 0)
 ;(global-hl-line-mode t)
 
-(set-default-font "Monaco-12")
+(set-frame-font "Monaco-12")
 ;(setq command-line-default-directory "/Users/archie/sub-archie/Github")
 
 ;; flycheck mode
