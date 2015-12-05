@@ -1,31 +1,3 @@
-cd coding/cs520-2015-fall-shwsun_/
-git pull
-cd Assignment/
-ls
-cd 08/
-l
-ls
-tree
-cp Solution/* MySolution/.
-cd MySolution/
-ls
-cd coding/cs520-2015-fall-shwsun_/Assignment/08/
-cd coding/cs520-2015-fall-shwsun_/Assignment/
-cd 08/
-cd coding/
-ls
-cd python-guide/
-l
-ls
-cd coding/
-cd python-guide/py3meta
-l
-ls
-teww
-tree
-cd ..
-..
-cd cs520-2015-fall-shwsun_/
 git pull
 cd Assignment/08/MySolution/
 ls
@@ -126,3 +98,31 @@ tree
 ..
 ..
 ..
+cdco
+cd coding/
+ls
+cd coding/
+ls
+cd cs520-2015-fall-shwsun_/Assignment/09
+ls
+c
+cd coding/
+ls
+cd coding/
+cd coding/
+l
+ls
+cd coding/
+l
+cd cs520-2015-fall-shwsun_/Exam/Midterm-2/
+ls
+myserver
+ssh myserver
+ls
+cd Desktop/BostonUniversity/schedule/655/
+s
+ls
+ls
+cd ~/coding 
+ls
+ls
