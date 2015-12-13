@@ -1,74 +1,3 @@
-git pull
-cd Assignment/08/MySolution/
-ls
-cd ~/coding/
-cd cs520-2015-fall-shwsun_/Assignment/08/MySolution/
-cls
-ls
-clear 
-l
-ls
-cd ~/coding/
-ls
-cd bitcoin/
-ls
-ls
-GIT
-ls
-tree
-git add blockparser/
-git commmit -m "1st step parser "
-git commit -m "1st step parser "
-git push
-cls
-cd ~/coding 
-ls
-cd googletest/
-l
-ls
-cat README.md 
-cls
-ls
-ls
-cls
-ls
-cd coding/
-ls
-cls
-clear 
-cd coding/
-ls
-cd cs520/
-cd Assignment/
-cd 09/
-cd ..
-..
-cd Lecture/
-ls
-cd lecture-11-04/
-ls
-..
-cd lecture-11-09/
-ls
-..
-cd lecture-11-11/
-ls
-cd Worker/
-ls
-cd coding/
-ls
-cd coding/
-cls
-ls
-cd python-guide/
-ls
-ls
-cd coding/
-ls
-cls
-cd coding/
-ls
-l
 cls
 cd coding/
 l
@@ -125,4 +54,75 @@ ls
 ls
 cd ~/coding 
 ls
+ls
+cd coding/
+ls
+ls
+cd Desktop/PA2-resubmit/
+ls
+cd coding/
+ls
+cd coding
+ls
+cd networking/
+ls
+ls
+ls
+cd coding/
+s
+ls
+cd gin
+cd final_project/
+ls
+cls
+ls
+cd coding/
+cd final_project/
+ls
+cd Desktop/BostonUniversity/schedule/655/
+ls
+cd ~/coding/
+ls
+cd cs520-2015-fall-shwsun_/
+git pull
+..
+cd final_project/
+git pull 
+ls
+cd coding/
+ls
+cd final_project/
+ls
+cd Desktop/BostonUniversity/schedule/330/Solutions/
+ls
+cd hw11
+ls
+ls
+cd coding/
+cd final_project/
+ls
+cd coding/
+ls
+cd final_project/
+ls
+cd coding/final_project/
+git pull 
+cd coding/final_project/
+ls
+cd coding/
+ls
+cd final_project/
+cls
+ls
+cd coding/
+cd final_project/
+git pull 
+l
+cd coding/final_project/
+git pull 
+cls
+cd coding/final_project/
+ls
+ls
+cd coding/final_project/
 ls

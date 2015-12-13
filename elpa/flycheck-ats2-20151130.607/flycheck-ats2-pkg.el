@@ -1,0 +1,1 @@
+(define-package "flycheck-ats2" "20151130.607" "Flycheck: ATS2 support" '((emacs "24.1") (flycheck "0.22")) :url "http://github.com/drvink/flycheck-ats2" :keywords '("convenience" "tools" "languages"))
