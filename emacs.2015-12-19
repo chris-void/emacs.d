@@ -1,0 +1,259 @@
+;; Filename: emacs
+;;
+;  This is the personal setting script of chrisvo1d for Emacs. Anyone is welcome to fork and try this set of emacs !
+;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+;
+;   Basically came from:
+;        Emacs-Prelude
+;
+;   Including the services:
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;; Written by shwsun
+;; Version: 1.1
+; First, you'd better had experience of using Emacs.
+; You should use the pkg control to install Emacs(like apt-get install emacs or brew install emacs, don't worry it is covered below)
+; Then follow the guide to put the emacs.d folder and emacs to the right place
+;;
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;
+;;          basic seettings
+;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;; Code: 
+(add-to-list 'load-path "~/.emacs.d/personal/preload/")
+
+(global-linum-mode t)
+(setq linum-format "%2d ")
+(fset 'yes-or-no-p 'y-or-n-p)
+
+(setq-default make-backup-files nil)
+(setq inhibit-startup-message t)
+(setq visible-bell nil)
+(setq make-backup-files nil)
+;;(global-font-lock-mode t)
+(show-paren-mode t)
+
+;; scroll smoothly
+(setq scroll-margin 3
+ scroll-conservatively 10000)
+(setq auto-save-default nil)
+
+;; markdown-mode
+(add-to-list 'custom-theme-load-path "~/.emacs.d/personal/preload/")
+(autoload 'markdown-mode "markdown-mode"
+    "Major mode for editing Markdown files" t)
+(add-to-list 'auto-mode-alist '("\\.text\\'" . markdown-mode))
+(add-to-list 'auto-mode-alist '("\\.markdown\\'" . markdown-mode))
+(add-to-list 'auto-mode-alist '("\\.md\\'" . markdown-mode))
+
+;; use electric pair mode to help
+(defun electric-pair ()
+     "If at end of line, insert character pair without surrounding spaces.
+     Otherwise, just insert the typed character."
+     (interactive)
+     (if (eolp) (let (parens-require-spaces) (insert-pair)) (self-insert-command 1)))
+(electric-pair-mode 1)
+
+;; use electric mode in Python
+(add-hook 'python-mode-hook
+               (lambda ()
+                (define-key python-mode-map "\"" 'electric-pair)
+                (define-key python-mode-map "\'" 'electric-pair)
+                (define-key python-mode-map "(" 'electric-pair)
+                (define-key python-mode-map "[" 'electric-pair)
+                (define-key python-mode-map "{" 'electric-pair)))
+
+;; use google style C
+;(add-hook 'c-mode-common-hook 'google-set-c-style)
+;(add-hook 'c-mode-common-hook 'google-make-newline-indent)
+
+;; use c mode settings
+;(c-toggle-auto-newline)
+(add-hook 'c-mode-common-hook (lambda () (c-toggle-auto-hungry-state 1)))
+;(add-hook 'c-mode-hook
+;           '(lambda ()
+;                           (c-set-style "Stroustrup")
+;                           (c-toggle-auto-hungry-state 1)))
+
+
+;; use the atom dark theme which is my favourite
+(add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
+;(load-theme 'base16-default t)
+(load-theme 'solarized-dark t)
+;(load-theme 'my-solarized-dark t)
+
+;; use Wind Move (see more on EmacsWiki)
+(when (fboundp 'windmove-default-keybindings)
+   (windmove-default-keybindings))
+
+
+;; use utf-8 coding to help with chinese
+(setq locale-coding-system 'utf-8)
+(set-terminal-coding-system 'utf-8)
+(set-keyboard-coding-system 'utf-8)
+(set-selection-coding-system 'utf-8)
+(prefer-coding-system 'utf-8)
+
+(setq tab-width 4)
+(setq-default indent-tabs-mode nil)
+(setq c-basic-offset 4)
+(require 'cc-mode)
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;
+;;  You can add your own settings below !
+;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;; use emacs-for-python 
+(load-file "~/.emacs.d/personal/preload/emacs-for-python/epy-init.el")
+
+;; MELPA
+(require 'package) ;; You might already have this line
+(add-to-list 'package-archives
+             '("melpa" . "https://melpa.org/packages/"))
+(when (< emacs-major-version 24)
+  ;; For important compatibility libraries like cl-lib
+  (add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/")))
+(package-initialize) ;; You might already have this line
+
+;; ido mode
+(require 'ido)
+(ido-mode t)
+
+;; hignlight
+;(global-hl-line-mode 1)
+
+;; Org-mode
+(require 'org)
+(define-key global-map "\C-cl" 'org-store-link)
+(define-key global-map "\C-ca" 'org-agenda)
+(setq org-log-done t)
+
+;; Pythn Elpy
+;(elpy-enable)
+;; highlight
+;(highlight-lines-matching-regexp)
+;(column-highlight-mode t)
+;(blink-cursor-mode 0)
+;(global-hl-line-mode t)
+
+(set-frame-font "Monaco-12")
+;(setq command-line-default-directory "/Users/archie/sub-archie/Github")
+
+;; flycheck mode
+(add-hook 'after-init-hook #'global-flycheck-mode)
+
+;; company mode
+(add-hook 'after-init-hook 'global-company-mode)
+
+;; aptitude install pyflakes to check python code
+;(require 'flymake-cursor)
+;(global-set-key [f4] 'flymake-goto-next-error)
+
+(when (load "flymake" t)
+  (defun flymake-pyflakes-init ()
+    (let* ((temp-file (flymake-init-create-temp-buffer-copy
+                       'flymake-create-temp-inplace))
+           (local-file (file-relative-name
+                        temp-file
+                        (file-name-directory buffer-file-name))))
+      (list "pyflakes" (list local-file))))
+
+  (add-to-list 'flymake-allowed-file-name-masks
+               '("\\.py\\'" flymake-pyflakes-init)))
+
+(add-hook 'find-file-hook 'flymake-find-file-hook)
+
+;; ATS 
+;;(load "~/.emacs.d/personal/preload/ats2-mode.el")
+;;(require 'ats2-mode)
+;;(require 'ats2-flymake)
+(load-file "~/.emacs.d/personal/preload/ats2-mode.el")
+(load-file "~/.emacs.d/personal/preload/ats2-flymake.el")
+(setq auto-mode-alist
+  (cons '("\\.sats" . ats-mode) auto-mode-alist))
+(setq auto-mode-alist
+  (cons '("\\.dats" . ats-mode) auto-mode-alist))
+(setq auto-mode-alist
+  (cons '("\\.hats" . ats-mode) auto-mode-alist))
+;;;
+(autoload 'ats-mode
+          "ats-mode" "Major mode for editing ATS code" t)
+		  
+;;(setenv "PATSHOME" "/cs/coursedata/cs520/ats2-lang/")
+
+;; aggressive-indent-mode
+;(add-hook 'c-mode-hook #'aggressive-indent-mode)
+;(add-hook 'python-mode-hook #'aggressive-indent-mode)
+;(add-hook 'cc-mode-hook #'aggressive-indent-mode)
+;(add-hook 'c++-mode-hook #'aggressive-indent-mode)
+
+
+;;Helm
+;;(add-to-list 'load-path "~/.emacs.d/personal/preload/async")
+;(add-to-list 'load-path "~/.emacs.d/personal/preload/helm")
+;(require 'helm-config)
+
+;; Gtags
+;(require 'gtags)
+;(setq gtags-suggested-key-mapping t)
+
+;; for yasnippet
+(add-to-list 'load-path "~/.emacs.d/personal/preload/yasnippet")
+(require 'yasnippet)
+(yas-global-mode 1)
+
+;; cmake ide
+(require 'eval-after-load)
+;; (require 'rtags) ;; optional, must have rtags installed
+(cmake-ide-setup)
+
+;; solve shell mode
+(ansi-color-for-comint-mode-on)
+
+;; auto complete
+  (add-to-list 'load-path "~/.emacs.d/elpa/auto-complete-20150618.1949") 
+(require 'auto-complete-config)
+(add-to-list 'ac-dictionary-directories "~/.emacs.d/elpa/auto-complete-20150618.1949/dict") 
+(require 'auto-complete-clang)
+; additional req
+(require 'flymake-settings)
+
+(require 'xcscope)
+
+(setq ac-auto-start nil)
+(setq ac-quick-help-delay 0.5)
+;; (ac-set-trigger-key "TAB")
+;; (define-key ac-mode-map  [(control tab)] 'auto-complete)
+(define-key ac-mode-map  [(control tab)] 'auto-complete)
+(defun my-ac-config ()
+  (setq-default ac-sources '(ac-source-abbrev ac-source-dictionary ac-source-words-in-same-mode-buffers))
+  (add-hook 'emacs-lisp-mode-hook 'ac-emacs-lisp-mode-setup)
+  ;; (add-hook 'c-mode-common-hook 'ac-cc-mode-setup)
+  (add-hook 'ruby-mode-hook 'ac-ruby-mode-setup)
+  (add-hook 'css-mode-hook 'ac-css-mode-setup)
+  (add-hook 'auto-complete-mode-hook 'ac-common-setup)
+  (global-auto-complete-mode t))
+(defun my-ac-cc-mode-setup ()
+  (setq ac-sources (append '(ac-source-clang ac-source-yasnippet) ac-sources)))
+(add-hook 'c-mode-common-hook 'my-ac-cc-mode-setup)
+;; ac-source-gtags
+(my-ac-config)
+
+;; NeoTree
+(add-to-list 'load-path "~/.emacs.d/personal/preload/neotree/")
+(require 'neotree)
+(global-set-key [f3] 'neotree-toggle)
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+)
