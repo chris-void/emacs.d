@@ -1,24 +1,3 @@
-cd Assignment/09/
-ls
-ls
-r
-tree
-..
-..
-..
-cdco
-cd coding/
-ls
-cd coding/
-ls
-cd cs520-2015-fall-shwsun_/Assignment/09
-ls
-c
-cd coding/
-ls
-cd coding/
-cd coding/
-l
 ls
 cd coding/
 l
@@ -126,3 +105,24 @@ cd linux-2.6.11.12/
 ls
 gtags
 brew install 
+cd coding/
+cd networking/
+ls
+cd coding/
+ls
+cd python-guide/
+ls
+cd py3meta/
+ls
+cd debugly/
+..
+ls
+etags
+etags -R .
+etags -R 
+find . -type f -iname "*.[py	]" | xargs etags -a
+find . -type f -iname "*.[py]" | xargs etags -a
+ls
+cd debugly/
+python3 debugly.py 
+python debugly.py 
