@@ -1,97 +1,4 @@
 ls
-cd coding/
-l
-cd cs520-2015-fall-shwsun_/Exam/Midterm-2/
-ls
-myserver
-ssh myserver
-ls
-cd Desktop/BostonUniversity/schedule/655/
-s
-ls
-ls
-cd ~/coding 
-ls
-ls
-cd coding/
-ls
-ls
-cd Desktop/PA2-resubmit/
-ls
-cd coding/
-ls
-cd coding
-ls
-cd networking/
-ls
-ls
-ls
-cd coding/
-s
-ls
-cd gin
-cd final_project/
-ls
-cls
-ls
-cd coding/
-cd final_project/
-ls
-cd Desktop/BostonUniversity/schedule/655/
-ls
-cd ~/coding/
-ls
-cd cs520-2015-fall-shwsun_/
-git pull
-..
-cd final_project/
-git pull 
-ls
-cd coding/
-ls
-cd final_project/
-ls
-cd Desktop/BostonUniversity/schedule/330/Solutions/
-ls
-cd hw11
-ls
-ls
-cd coding/
-cd final_project/
-ls
-cd coding/
-ls
-cd final_project/
-ls
-cd coding/final_project/
-git pull 
-cd coding/final_project/
-ls
-cd coding/
-ls
-cd final_project/
-cls
-ls
-cd coding/
-cd final_project/
-git pull 
-l
-cd coding/final_project/
-git pull 
-cls
-cd coding/final_project/
-ls
-ls
-cd coding/final_project/
-ls
-cd .emacs.d/
-ls
-..
-cp .emacs  emacs.2015-12-14
-ls
-mv emacs.2015-12-14  .emacs.d/.
-cd .emacs.d/
-ls
 GIT
 cd final_project/
 cd ~
@@ -126,3 +33,96 @@ ls
 cd debugly/
 python3 debugly.py 
 python debugly.py 
+ls
+cd coding/
+ls
+ls
+patscc 
+patscc 
+patsopt 
+cd ats-utils-master/
+l
+ls
+patscc 
+cd coding/
+l
+ls
+mkdir leetcoding
+git clone https://github.com/chris-void/temp.git
+cd temp/
+ls
+GIT
+ls
+ls
+diff       Show changes between commits, commit and working tree
+cd ~/Desktop/
+ls
+cd ATS\ final\ work\ /
+ls
+d CHAP_THMPRVING/
+lcd CHAP_THMPRVING/
+cd CHAP_THMPRVING/
+ls
+make all 
+ls
+./brauntree 
+./misc 
+./tree 
+cd ~/coding/
+l
+cd temp/
+l
+ls
+cd ls
+cd ATS\ final\ work\ /
+ls
+..
+ls
+mv ATS\ final\ work\ /  ATSfinal
+ls
+cd At
+cd ATSfinal/
+ls
+make clean 
+ls
+make cleanall 
+cd CHAP_THMPRVING/
+make clean
+ls
+ls
+cdco
+cd coding/
+ls
+cd temp/
+ls
+cd ATSfinal/
+ls
+..
+ls
+ls
+ls
+ls
+touch tree.sats tree.dats
+touch avl.sats avl.dats rbtree.sats rbtree.dats
+ls
+ls
+cls
+ls
+touch bstree.sats  bstree.dats
+ls
+cd coding/
+ls
+cd temp/
+ls
+../leetcoding/
+ls
+ls
+cd coding/
+ls
+cd temp/
+ls
+cd Ats
+cd ATSfinal/
+ls
+cd coding/temp/
+ls
