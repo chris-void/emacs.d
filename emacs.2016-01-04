@@ -116,6 +116,11 @@
 ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
+(tool-bar-mode -1)
+(menu-bar-mode -1)
+(setq inhibit-startup-message t)
+(setq initial-scratch-message "")
+
 ;; use emacs-for-python
 ;(load-file "~/.emacs.d/personal/preload/emacs-for-python/epy-init.el")
 
