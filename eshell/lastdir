@@ -2,7 +2,6 @@
 /Users/arch/coding/final_project
 /Users/arch/coding/final_project
 /Users/arch/coding/final_project
-/Users/arch/coding/final_project
 /Users/arch/.emacs.d
 /Users/arch
 /Users/arch/coding/linux-2.6.11.12
@@ -29,5 +28,6 @@
 /Users/arch/develop/ryu
 /Users/arch/develop/ryu/ryu
 /Users/arch/develop/ryu/ryu/app
-~
 /Users/arch/.emacs.d
+~
+/Users/arch/develop/ryu/ryu.egg-info
