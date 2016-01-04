@@ -1,24 +1,4 @@
 ls
-GIT
-cd final_project/
-cd ~
-git
-zsh
-one
-two
-cd coding/
-ls
-cd linux-2.6.11.12/
-ls
-gtags
-brew install 
-cd coding/
-cd networking/
-ls
-cd coding/
-ls
-cd python-guide/
-ls
 cd py3meta/
 ls
 cd debugly/
@@ -126,3 +106,23 @@ cd ATSfinal/
 ls
 cd coding/temp/
 ls
+cd coding/
+ls
+cd temp/
+s
+ls
+cd ..
+ls
+cd muduo/
+ls
+cd coding/muduo/
+ls
+cd coding/
+ls
+cd temp/
+sl
+ls
+cd ~/develop/
+sl
+ls
+cd ryu/

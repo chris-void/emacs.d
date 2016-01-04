@@ -1,0 +1,107 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/arch/" . "coding/")
+ ("/Users/arch/coding/" . "temp/")
+ ("/Users/arch/code/coding/" . "networking/")
+ ("/Users/arch/code/" . "coding/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/arch/coding/leetcoding/"
+ "/Users/arch/coding/temp/"
+ "/Users/arch/coding/ats-utils-master/"
+ "/Users/arch/"
+ "/Users/arch/coding/temp/ATSfinal/"
+ "/Users/arch/coding/temp/ATS final work /"
+ "/Users/arch/coding/"
+ "/Users/arch/Desktop/BostonUniversity/schedule/655/"
+ "/Users/arch/coding/cs520-2015-fall-shwsun_/Assignment/09/"
+ "/Users/arch/coding/bitcoin/"
+ "/Users/arch/coding/googletest/googletest/"
+ "/Users/arch/coding/googletest/"
+ "/Users/arch/coding/cs520-2015-fall-shwsun_/Assignment/08/"
+ "/Users/arch/coding/cs520-2015-fall-shwsun_/Assignment/08/MySolution/"
+ "/Users/arch/coding/python-guide/py3meta/structly/"
+ "/Users/arch/Desktop/PA2/Reliable-data-protocols-SR/"
+ "/Users/arch/coding/networking/"
+ "/Users/arch/coding/networking/test/"
+ "/Users/arch/coding/cs520-2015-fall-shwsun_/Assignment/07/MySolution/"
+ "/Users/arch/code/coding/networking/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "rmDupfromSortedArray.cpp"
+ "tree.sats"
+ "tree.dats"
+ "test.dats"
+ "intervalset.dats"
+ "bstree.sats"
+ "tre.sats"
+ "rbtree.sats"
+ "README.md"
+ ".emacs"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/arch/coding/networking/" (22140 60692 0 0) "text.py" "simple_switch.pyc" "simple_switch.py" "ryu/" "ethernet_fabics.md" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/arch/" (22141 31287 0 0) "VirtualBox VMs/" "test.sh" "remind.md" "PycharmProjects/" "Public/" "Pictures/" "nens.md" "myself.md" "Music/" "Movies/" "Library/" "IdeaProjects/" "Google Drive/" "emacs" "Dropbox/" "Downloads/" "Documents/" "develop/" "Desktop/" "coding/" "ClionProjects/" "bin/" "Applications/" ".zshrc~" ".zshrc" ".zsh_profile" ".zsh_history" ".zsh-update" ".zcompdump-chrisVoid-5.2" ".zcompdump-chrisVoid-5.1.1" ".zcompdump-chrisVoid-5.0.8" ".zcompdump-chrisVoid-5.0.5" ".zcompdump" ".Xauthority" ".wireshark-etc/" ".wireshark/" ".w3m/" ".vimrc" ".viminfo" ".vim/" ".Trash/" ".thefuck/" ".subversion/" ".ssh/" ".sh_history" ".rtags-file/" ".rnd" ".rdm.file" ".rbenv/" ".python_history" ".PyCharm50/" ".procmailrc" ".oracle_jre_usage/" ".oh-my-zsh/" ".matplotlib/" ".lesshst" ".gitconfig" ".gem/" ".fontconfig/" ".erc/" ".emacs.d/" ".emacs" ".DS_Store" ".dropbox/" ".draft.md" ".cups/" ".config/" ".CFUserTextEncoding" ".cache/" ".bashrc" ".bash_history" ".atom/" ".android/" "../" "./")
+
+ ("/Users/arch/coding/temp/" (22140 63069 0 0) "tree.sats" "tree.dats" "test.dats" "README.md" "rbtree.sats" "rbtree.dats" "bstree.sats" "bstree.dats" "avl.sats" "avl.dats" "ATSfinal/" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/arch/coding/leetcoding/" (22139 3094 0 0) "../" "./")
+
+ ("/Users/arch/coding/" (22139 8333 0 0) "temp/" "python-guide/" "networking/" "linux-2.6.11.12/" "leetcoding/" "googletest/" "ats-utils-master/" "ATS-Postiats/" "ATS-CMake-4947c45ec8ee2d1a987a5359953b21a0c4f98a83/" ".DS_Store" "../" "./")
+
+ ("/Users/arch/coding/temp/ATSfinal/" (22139 7364 0 0) "rbtree/" "problem4_dats.c" "problem4.dats" "CHAP_THMPRVING/" "BinaryTreeLemmas.dats" "BinaryTree.dats" ".DS_Store" "../" "./")
+
+ ("/Users/arch/Desktop/BostonUniversity/schedule/655/" (22119 14589 0 0) "Sun.pdf" "solsamplemidtermf15 (1).pdf" "Programming Assign/" "other resrc/" "nrg/" "matta_plot" "Lecture Notes/" "lab/" "hw5_soln.pdf" "hw3.pdf" "Homework/" "geni/" "cs655" "cs455655syllabus.pdf" "12-08.md" "12-03.md" "11-24.md" "11-19.md" "11-17.md" "11-12.md" "11-10.md" "11-05.md" "11-03.md" "10-29.md" "10-27.md" "10-20.md" "10-15.md" "10-08.md" "10-06.md" "10-01.md" "09-29.md" "09-24.md" "09-22.md" "09-17.md" "09-15.md" "09-10.md" "09-08.md" "09-03.md" ".DS_Store" "../" "./")
+
+ ("/Users/arch/coding/ats-utils-master/" (22139 6059 0 0) "util.sats" "unit.sats" "string.sats" "string.dats" "stream.sats" "stream.dats" "regex.dats" "rbtreepf.dats" "rbtree.sats" "rbtree.dats" "pair.sats" "pair.dats" "maybe.sats" "maybe.dats" "map.sats" "map.dats" "list.sats" "list.dats" "intervalset.sats" "intervalset.dats" "convert.sats" "convert.dats" "bt.dats" "avl.sats" "avl.dats" ".DS_Store" "../" "./")
+
+ ("/Users/arch/coding/temp/ATSfinal/CHAP_THMPRVING/" (22139 4174 0 0) "tree_dats.c" "tree.dats" "tree" "sqrt2_irrat.dats" "misc_dats.c" "misc.dats" "misc" "Makefile" "brauntree_dats.c" "brauntree.dats" "brauntree" ".DS_Store" "../" "./")
+
+ ("/Users/arch/coding/temp/ATS final work /" (22139 3604 0 0) "CHAP_THMPRVING/" "BinaryTreeLemmas.dats" "BinaryTree.dats" ".DS_Store" "../" "./")
+
+ ("/Users/arch/coding/cs520-2015-fall-shwsun_/Exam/Midterm-2/" (22111 370 0 0) "README" "Q8/" "Q7/" "Q6/" "Q5/" "Q4/" "Q3/" "Q2/" "Q1/" ".keeper" "../" "./")
+
+ ("/Users/arch/coding/cs520-2015-fall-shwsun_/Assignment/09/" (22109 13929 0 0) "MySolution/" "Makefile" "Assign09_server.dats" "Assign09_prot.sats" "Assign09_client_dats.c" "Assign09_client.dats" "Assign09.html" "../" "./")
+
+ ("/Users/arch/coding/bitcoin/" (22082 18699 0 0) "TODO.md" "README.md" "LICENSE" "blockparser/" "bitcoin.org" "basic-blockchain-programming/" ".git/" ".DS_Store" ".#bitcoin.org" "../" "./")
+
+ ("/Users/arch/coding/googletest/googletest/" (22068 14929 0 0) "xcode/" "test/" "src/" "scripts/" "samples/" "README.md" "msvc/" "Makefile.am" "make/" "m4/" "LICENSE" "include/" "docs/" "CONTRIBUTORS" "configure.ac" "codegear/" "CMakeLists.txt" "cmake/" "CHANGES" "build-aux/" "../" "./")
+
+ ("/Users/arch/coding/googletest/" (22068 14929 0 0) "travis.sh" "README.md" "googletest/" "googlemock/" ".travis.yml" ".git/" "../" "./")
+
+ ("/Users/arch/coding/cs520-2015-fall-shwsun_/Assignment/08/" (22080 2910 0 0) "Solution/" "MySolution/" "list_concat.dats" "infprime.dats" "Assign08.dats" "../" "./")
+
+ ("/Users/arch/coding/cs520-2015-fall-shwsun_/Assignment/08/MySolution/" (22080 60695 0 0) "Permute_list0.dats" "Makefile" "list_permute.dats" "Assign08_test.dats" "Assign08_sol.dats" ".keeper" ".#Assign08_sol.dats" "../" "./")
+
+ ("/Users/arch/coding/python-guide/py3meta/structly/" (22080 43335 0 0) "structly.py" "../" "./")
+
+ ("/Users/arch/coding/python-guide/py3meta/" (20801 61588 0 0) "typely/" "structly/" "README.txt" "Py3Meta.pdf" "index.html" "importly/" "execly/" "debugly/" "../" "./")
+
+ ("/Users/arch/coding/networking/test/" (22075 26952 0 0) "temp.c" "OutputFile" "Makefile" "CMakeLists.txt" "a.out" "../" "./")
+
+ ("/Users/arch/Desktop/PA2/Reliable-data-protocols-SR/" (22075 43039 0 0) "README.md" "pa2.c" "a.out" ".DS_Store" "../" "./")
+
+ ("/Users/arch/coding/cs520-2015-fall-shwsun_/Assignment/07/MySolution/" (22072 16891 0 0) "sol.dats" "README.md" "Makefile" "Assign07_test.dats" "Assign07_sol.dats" ".keeper" "../" "./")
+
+ ("/Users/arch/coding/cs520-2015-fall-shwsun_/Assignment/07/" (22071 3582 0 0) "Solution/" "rarray.dats" "MySolution/" "Assign07.dats" "../" "./")
+
+ ("/Users/arch/code/coding/networking/" (22070 33015 0 0) "test/" "pa2_extend.c" "pa2.c" "Makefile" "GBN_extend.c" "CMakeLists.txt" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/arch/code/coding/" (22070 31966 0 0) "networking/" "googletest/" "cs520-2015-fall-shwsun_/" "bitcoin/" ".DS_Store" "../" "./")
+
+ ("/Users/arch/code/" (22069 36399 0 0) "test.org" "rules.md" "README.md" "note.md" "MYATS/" "Makefile" "leetcode/" "index.html" "erlang_code/" "emacs.d/" "devstack/" "cs330.md" "Count/" "coding/" "busec/" ".DS_Store" "../" "./")
+
+ ("/Users/" (22051 46837 0 0) "Shared/" "Guest/" "archie/" "arch/" ".localized" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
