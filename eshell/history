@@ -1,15 +1,4 @@
 ls
-cd py3meta/
-ls
-cd debugly/
-..
-ls
-etags
-etags -R .
-etags -R 
-find . -type f -iname "*.[py	]" | xargs etags -a
-find . -type f -iname "*.[py]" | xargs etags -a
-ls
 cd debugly/
 python3 debugly.py 
 python debugly.py 
@@ -126,3 +115,14 @@ cd ~/develop/
 sl
 ls
 cd ryu/
+cd develop/ryu/ryu/app/
+ls
+cd develop/ryu
+ls
+cd ryu
+cd app/
+ls
+ls
+cd .emacs.d
+ls
+tree
