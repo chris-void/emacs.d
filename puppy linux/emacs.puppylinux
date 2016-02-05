@@ -1,0 +1,69 @@
+;;; package -- Summary
+;; Filename: emacs
+;;
+;  This is the personal setting script for Emacs. Anyone is welcome to fork and try this set of emacs !
+;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+;
+;   Basically came from:
+;        Emacs-Prelude
+;
+;   Including the services:
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;; Commentary 
+;; Written by shwsun
+;; Version: 1.1
+; First, you'd better had experience of using Emacs.
+; You should use the pkg control to install Emacs(like apt-get install emacs or brew install emacs, don't worry it is covered below)
+; Then follow the guide to put the emacs.d folder and emacs to the right place
+;;
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;
+;;          basic seettings
+;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;; Code: 
+(global-linum-mode t)
+(setq linum-format "%2d ")
+(fset 'yes-or-no-p 'y-or-n-p)
+(load-theme 'solarized-dark t)
+(tool-bar-mode -1)
+(menu-bar-mode -1)
+(setq inhibit-startup-message t)
+(setq initial-scratch-message "")
+(setq tab-width 4)
+(setq-default indent-tabs-mode nil)
+(setq c-basic-offset 4)
+(require 'cc-mode)
+
+;; use electric pair mode to help
+(defun electric-pair ()
+     "If at end of line, insert character pair without surrounding spaces.
+     Otherwise, just insert the typed character."
+     (interactive)
+     (if (eolp) (let (parens-require-spaces) (insert-pair)) (self-insert-command 1)))
+(electric-pair-mode 1)
+
+;; use c mode settings
+(add-hook 'c-mode-common-hook (lambda () (c-toggle-auto-hungry-state 1)))
+
+;; load theme in emacs23
+(add-to-list 'load-path "~/.emacs.d/personal")
+
+(condition-case nil    
+  (load-theme 'zenburn t)
+  (wrong-number-of-arguments
+    (load-theme 'zenburn)))
+
+;; ido mode
+(require 'ido)
+(ido-mode t)
+
+;; use Wind Move (see more on EmacsWiki)
+(when (fboundp 'windmove-default-keybindings)
+   (windmove-default-keybindings))
