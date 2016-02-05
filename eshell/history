@@ -1,74 +1,3 @@
-cd debugly/
-python3 debugly.py 
-python debugly.py 
-ls
-cd coding/
-ls
-ls
-patscc 
-patscc 
-patsopt 
-cd ats-utils-master/
-l
-ls
-patscc 
-cd coding/
-l
-ls
-mkdir leetcoding
-git clone https://github.com/chris-void/temp.git
-cd temp/
-ls
-GIT
-ls
-ls
-diff       Show changes between commits, commit and working tree
-cd ~/Desktop/
-ls
-cd ATS\ final\ work\ /
-ls
-d CHAP_THMPRVING/
-lcd CHAP_THMPRVING/
-cd CHAP_THMPRVING/
-ls
-make all 
-ls
-./brauntree 
-./misc 
-./tree 
-cd ~/coding/
-l
-cd temp/
-l
-ls
-cd ls
-cd ATS\ final\ work\ /
-ls
-..
-ls
-mv ATS\ final\ work\ /  ATSfinal
-ls
-cd At
-cd ATSfinal/
-ls
-make clean 
-ls
-make cleanall 
-cd CHAP_THMPRVING/
-make clean
-ls
-ls
-cdco
-cd coding/
-ls
-cd temp/
-ls
-cd ATSfinal/
-ls
-..
-ls
-ls
-ls
 ls
 touch tree.sats tree.dats
 touch avl.sats avl.dats rbtree.sats rbtree.dats
@@ -126,3 +55,74 @@ cd .emacs.d
 ls
 tree
 cd develop/ryu/ryu.egg-info/
+cd coding/
+ls
+cd ryu/
+ls
+..
+tree
+cls
+clear 
+ls
+cd ATS/
+ls
+cd ../temp/
+ls
+ls
+cd coding/temp/
+l;
+ls
+..
+cd leetcoding/
+ls
+mv __searchInRotatedArr.cpp  _33_searchInRotatedArr.cpp
+ls
+cd ..
+ls
+cd temp/
+ls
+touch avl.dats
+cd ..
+ls
+cd ATS/
+ls
+cd ats-utils-master/
+ls
+cd cd ..
+../te
+cd ../../temp/
+ls
+cd coding/temp/
+ls
+touch proof.dats
+atom proof.dats 
+atom proof.dats 
+atom HilbertCalc.dats
+GIT
+cls
+..
+ls
+..
+ks
+ls
+cd coding/
+cd ../Desktop/BostonUniversity/
+ls
+cd schedule/
+ls
+cd cs591
+ls
+cd Project/
+ls
+ls
+paper
+touch vIO_on_vmware_workstation.md
+ks
+cd coding/primer/
+ls
+cd src/
+ls
+..
+cd test/
+ls
+touch hello-1.c

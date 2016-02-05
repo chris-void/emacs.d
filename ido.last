@@ -1,0 +1,36 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/arch/coding/" . "temp/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/arch/Desktop/BostonUniversity/schedule/CS591/paper_review/"
+ "/Users/arch/Desktop/BostonUniversity/schedule/cs591/Project/"
+ "/Users/arch/coding/temp/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "vIO_on_vmware_workstation.md"
+ "1st_meet.md"
+ "bintree.dats"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/arch/Desktop/BostonUniversity/schedule/CS591/paper_review/" (22185 35444 0 0) "vIO_on_vmware_workstation.md" "Shuwen Sun.pdf" "enabling_a_marketplace_of_clouds.md" "Enable a Marketplace of Clouds: VMware's vCloud.md" "656abe4f.pdf" "../" "./")
+
+ ("/Users/arch/Desktop/BostonUniversity/schedule/cs591/Project/" (22184 12580 0 0) "ProjectDescriptionTemplate.docx" "MOC-UI-ProjectProposalExample.docx" "../" "./")
+
+ ("/Users/arch/coding/temp/" (22161 36677 0 0) "ATSfinal/" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/arch/coding/" (22154 55235 0 0) "temp/" "ryu/" "python-guide/" "networking/" "muduo/" "linux-2.6.11.12/" "leetcoding/" "googletest/" "build/" "ATS/" ".DS_Store" "../" "./")
+
+ ("/Users/arch/" (22161 36767 0 0) "VirtualBox VMs/" "test.sh" "test.py" "remind.md" "quickfix/" "PycharmProjects/" "Public/" "Pictures/" "npm-debug.log" "nens.md" "myself.md" "Music/" "Movies/" "Library/" "IdeaProjects/" "Google Drive/" "Dropbox/" "Downloads/" "Documents/" "dmx.md" "develop/" "Desktop/" "coding/" "ClionProjects/" "bin/" "Applications/" ".zshrc~" ".zshrc" ".zsh_profile" ".zsh_history" ".zsh-update" ".zcompdump-chrisVoid-5.2" ".zcompdump-chrisVoid-5.1.1" ".zcompdump-chrisVoid-5.0.8" ".zcompdump-chrisVoid-5.0.5" ".zcompdump" ".Xauthority" ".wireshark-etc/" ".wireshark/" ".wget-hsts" ".w3m/" ".vimrc" ".viminfo" ".vim/" ".Trash/" ".thefuck/" ".subversion/" ".ssh/" ".sh_history" ".rtags-file/" ".rnd" ".rdm.file" ".rbenv/" ".python_history" ".PyCharm50/" ".procmailrc" ".oracle_jre_usage/" ".oh-my-zsh/" ".matplotlib/" ".lesshst" ".keysnail.js" ".gitconfig" ".gem/" ".fontconfig/" ".erc/" ".emacs.d/" ".emacs" ".DS_Store" ".dropbox/" ".draft.md" ".cups/" ".config/" ".CFUserTextEncoding" ".cache/" ".bashrc" ".bash_history" ".atom/" ".android/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
